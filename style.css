@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    color: #fff;
+    background-color:palevioletred;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right:100px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+}
+.login-btn{
+    column-gap: 18px;
+    height: 45px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.login-btn a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.login-btn #user{
+    display: none;
+}
+.login-btn #logout{
+    display: flex;
+}
+/* ====navbar end===== */
+/* ====heading start===== */
+.signup-heading h1{
+    font-weight: 700;
+    font-size: 30px;
+    background-color:palevioletred;
+    display: flex;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:100px ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    color: #FFF;
+  
+}
+/* ====heading end===== */
+/* ====btn==== */
+.btn{
+    color: #fff;
+    background-color: palevioletred;
+    border:1px solid palevioletred;
+    border-radius: 20px;
+    background-color: palevioletred;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing:1px; 
+}
+.btn:hover{
+    color: #fff;
+    background-color: palevioletred;
+    border: none;
+}
+/* ======student form====== */
+
+/* .container-student-form{
+    background-color: palevioletred;
+    background-size: cover;
+} */
+.student-form{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: palevioletred;
+    border: 3px solid palevioletred;
+    box-shadow: 0 0 40px rgb(213, 100, 138);;
+    
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+}
+input[type=text], select{
+
+    width: 100%;
+    padding: 7px 10px;
+    margin: 17px 0;
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+    padding: 7px 11px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.submit{
+    color: #fff;
+    background-color: palevioletred;
+    border:1px solid palevioletred;
+    border-radius: 20px;
+    background-color: palevioletred;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing:1px; 
+}
+
+
+
+
+
+
+
+
